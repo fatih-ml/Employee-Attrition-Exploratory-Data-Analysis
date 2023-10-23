@@ -43,3 +43,7 @@ Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 Clone the repository.
 Install the necessary dependencies.
 Run the Jupyter notebook.
+
+
+## Contribution and Contact
+Feel free to contribute, ask questions, or provide feedback. You can reach out to me on LinkedIn. Your participation is highly valued! https://www.linkedin.com/in/fatih-calik-469961237/ 
