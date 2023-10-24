@@ -3,6 +3,8 @@
 ## Overview
 This repository contains an in-depth exploratory data analysis (EDA) of a fictional Human Resources dataset. The primary goal of this analysis is to gain valuable insights into employee attrition and related factors. The dataset, provided by IBM and presented in a Kaggle competition, consists of 2795 observations and 35 features, encompassing various aspects of employees' professional and personal lives.
 
+**Update:** After a thorough exploratory data analysis i wanted to extend this study with feature engineering and Machine Learning. I have tried Linear Regression classifier, Random Forest Classifier, XGBoost Classifier and Gradient Boosting Classifier. Eventually with some parameter tunings Gradient Boosting classifier model outperformed the others and i have selected to predict the actual Kaggle test data. Finally the combination of this data analysis, feature engineering and selected model with selected prameters reached  a 0.8954 Roc Auc score
+
 ## Dataset
 The dataset is divided almost equally into test and train datasets, forming a binary classification type dataset. The target variable is 'Attrition', which indicates whether an employee stays or leaves the company.
 Find the link for the dataset and the competition: https://www.kaggle.com/competitions/playground-series-s3e3 
