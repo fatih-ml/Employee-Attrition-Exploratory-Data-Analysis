@@ -5,6 +5,7 @@ This repository contains an in-depth exploratory data analysis (EDA) of a fictio
 
 ## Dataset
 The dataset is divided almost equally into test and train datasets, forming a binary classification type dataset. The target variable is 'Attrition', which indicates whether an employee stays or leaves the company.
+Find the link for the dataset and the competition: https://www.kaggle.com/competitions/playground-series-s3e3 
 
 ## Key Findings
 **No Missing Values:** The dataset was clean with no missing values.
@@ -43,3 +44,7 @@ Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 Clone the repository.
 Install the necessary dependencies.
 Run the Jupyter notebook.
+
+
+## Contribution and Contact
+Feel free to contribute, ask questions, or provide feedback. You can reach out to me on LinkedIn. Your participation is highly valued! https://www.linkedin.com/in/fatih-calik-469961237/ 
