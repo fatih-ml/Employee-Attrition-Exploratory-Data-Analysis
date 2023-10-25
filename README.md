@@ -3,7 +3,7 @@
 ## Overview
 This repository contains an in-depth exploratory data analysis (EDA) of a fictional Human Resources dataset. The primary goal of this analysis is to gain valuable insights into employee attrition and related factors. The dataset, provided by IBM and presented in a Kaggle competition, consists of 2795 observations and 35 features, encompassing various aspects of employees' professional and personal lives.
 
-**Update:** After a thorough exploratory data analysis i wanted to extend this study with feature engineering and Machine Learning. I have tried Linear Regression classifier, Random Forest Classifier, XGBoost Classifier and Gradient Boosting Classifier. Eventually with some parameter tunings Gradient Boosting classifier model outperformed the others and i have selected to predict the actual Kaggle test data. Finally the combination of this data analysis, feature engineering and selected model with selected prameters reached  a 0.8954 Roc Auc score
+**Update:** After a thorough exploratory data analysis i wanted to extend this study with feature engineering and Machine Learning. I have tried Linear Regression classifier, Random Forest Classifier, XGBoost Classifier and Gradient Boosting Classifier. Eventually with some parameter tunings Gradient Boosting classifier model outperformed the others and i have selected to predict the actual Kaggle test data. Finally the combination of this data analysis, feature engineering and selected model with selected prameters reached  a 0.8954 Roc Auc score. After feature selection (20/35 regarding GINI feature importances) model performed better, reaching 0.9178 Roc Auc Score.
 
 ## Dataset
 The dataset is divided almost equally into test and train datasets, forming a binary classification type dataset. The target variable is 'Attrition', which indicates whether an employee stays or leaves the company.
@@ -34,6 +34,7 @@ Based on the analysis, remaining features were selected for the model after drop
 * 'MonthlyIncome' over 'JobLevel'
 * 'JobRole' over 'Department Features'
 * Retained encoded features.
+* After observing the feature importances the first 20 features selected and model trained again, eventually performed better.
 
 ## Model Building
 Classifiers like Decision Trees, Random Forest, XGBoost, and Gradient Boosting will be employed for the predictive model, utilizing the selected features.
